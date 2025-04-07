@@ -1,0 +1,58 @@
+Sohni Rais
+Boston, MA | rais.s@northeastern.edu | +1 (857)-328-7850 | linkedin.com/in/sohnirais | github.com/raiss15
+
+Work Experience
+--------------
+Front-end Developer Co-op
+Northeastern University
+Boston, USA
+Jan 2025 – present
+• Built responsive and scalable web applications using React.js, TypeScript, and Redux, adhering to modern development best practices.
+• Collaborated with backend developers to integrate RESTful APIs into the frontend, ensuring seamless data flow and functionality.
+• Conducted automated unit and integration testing using CI/CD pipelines, leveraging tools such as GitHub Actions to ensure code reliability and streamline deployment processes.
+• Utilized tools like Postman API for testing API endpoints and debugging integration issues.
+• Worked with databases such as MySQL to validate data consistency between frontend and backend systems.
+
+Software Engineer
+Technomargin
+Remote
+April 2020 – May 2023
+• Developed a React.js and Node.js application to assist individuals with drug abuse, featuring data analysis, inventory tracking, and clinical trial management for improved healthcare collaboration.
+• Developed RESTful APIs using Spring Boot, improving API response time by 20% and enabling seamless integration with third-party systems with automated testing using JUnit and Mockito
+• Implemented a robust security framework using Spring Security, enhancing the application's protection against unauthorized access and ensuring compliance with industry standards
+• Created a school ERP system using the React.js and Express.js, enhancing performance and decreasing server load by 25% through the implementation of code splitting, lazy loading, and caching strategies
+
+Business Development Executive
+Silicon IT Hub
+Ahmedabad, India
+April 2019 – March 2020
+• Spearheaded business development initiatives, achieving a 20% increase in conversion rates and securing a $2 million project within six months
+• Cultivated strong client relationships, improving customer satisfaction ratings from 72% to 97% through personalized service and strategic account management
+
+Business Development Executive
+WhiteFox Global Solutions
+Ahmedabad, India
+April 2017 – Dec 2018
+• Managed a high-volume lead pipeline, following up on 300 leads from marketing campaigns and increasing new business opportunities by 30%
+• Designed and executed targeted email marketing campaigns using MailChimp to engage potential clients and nurture leads through the sales funnel.
+
+Education
+---------
+Northeastern University
+Sept 2023 – Dec 2025
+MS in Information Systems | GPA: 3.67/4.0
+
+Marwadi University
+July 2012 – May 2016
+MS in Information Technology | GPA: 8.2/10.0
+
+Skills
+------
+Languages: Java, Python, JavaScript, TypeScript, SQL
+
+Technologies: Flask, Django, Node.js, React.js, Redux, Next.js, GraphQL, MySQL, MongoDB, Git, Kafka, Linux, Hibernate, JDBC, Spring framework, Core Java, Maven, Gradle, J2EE, ETL, JUnit, Mockito, Grafana
+
+DevOps/Cloud: Jenkins, Terraform, Ansible, AWS EC2, AWS Lambda, AWS DynamoDB, Docker, Kubernetes
+
+Methodologies: Agile, Scrum, OOP, Functional Programming, CI/CD
+

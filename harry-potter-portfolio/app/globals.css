@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 36% 96%;
+    --foreground: 40 10% 10%;
+
+    --card: 40 36% 98%;
+    --card-foreground: 40 10% 10%;
+
+    --popover: 40 36% 98%;
+    --popover-foreground: 40 10% 10%;
+
+    --primary: 36 100% 25%;
+    --primary-foreground: 40 36% 98%;
+
+    --secondary: 40 36% 90%;
+    --secondary-foreground: 40 10% 10%;
+
+    --muted: 40 36% 90%;
+    --muted-foreground: 40 10% 40%;
+
+    --accent: 36 100% 35%;
+    --accent-foreground: 40 36% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 40 36% 98%;
+
+    --border: 40 10% 85%;
+    --input: 40 10% 85%;
+    --ring: 36 100% 25%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 40 10% 8%;
+    --foreground: 40 36% 90%;
+
+    --card: 40 10% 10%;
+    --card-foreground: 40 36% 90%;
+
+    --popover: 40 10% 10%;
+    --popover-foreground: 40 36% 90%;
+
+    --primary: 36 100% 45%;
+    --primary-foreground: 40 10% 10%;
+
+    --secondary: 40 10% 15%;
+    --secondary-foreground: 40 36% 90%;
+
+    --muted: 40 10% 15%;
+    --muted-foreground: 40 36% 70%;
+
+    --accent: 36 100% 35%;
+    --accent-foreground: 40 10% 10%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 40 36% 90%;
+
+    --border: 40 10% 20%;
+    --input: 40 10% 20%;
+    --ring: 36 100% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-secondary;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary/50 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary;
+  }
+}
+
+/* Custom cursor */
+html {
+  cursor: url("/images/wand-cursor.png") 0 0, auto;
+}
+
+/* Clickable elements cursor */
+a,
+button,
+[role="button"],
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+input[type="checkbox"],
+input[type="radio"],
+select {
+  cursor: url("/images/wand-cursor-click.png") 0 0, pointer !important;
+}
+
+/* Font settings */
+.font-cinzel {
+  font-family: var(--font-cinzel);
+}
+
+/* Harry Potter background */
+.hogwarts-bg {
+  background-image: url("/images/hogwarts-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.hogwarts-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 0;
+}
+
+.hogwarts-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Parchment background */
+.parchment-bg {
+  background-image: url("/images/parchment-bg.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+@keyframes float-reverse {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(-3deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+@keyframes float-feather {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-5px) rotate(5deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-5px) rotate(-5deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+.float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.float-reverse {
+  animation: float-reverse 7s ease-in-out infinite;
+}
+
+.float-feather {
+  animation: float-feather 8s ease-in-out infinite;
+}
+
