@@ -1,10 +1,9 @@
 ![image](https://github.com/user-attachments/assets/0d3051d8-2871-4916-af35-fcfb0a9815a8)
 
 
-# Harry Potter Themed Portfolio - Sohni Rais
+# Sohni's Spellcraft Portfolio 🪄
 
-## Project Overview
-This project is a Harry Potter-themed portfolio website created using V0.dev, featuring a magical interface that showcases my skills, projects, and experience as a Software Engineer & Front-end Developer.
+A Harry Potter-inspired portfolio built using [V0.dev](https://v0.dev), Tailwind CSS, and ShadCN components. This project showcases three key projects and includes responsive design optimized for both desktop and mobile screens.
 
 ## Features
 - **Magical Theme**: Harry Potter-inspired design elements including a wand cursor, sparkling animations, and themed components
