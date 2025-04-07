@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/0d3051d8-2871-4916-af35-fcfb0a9815a8)
+
+
 # Harry Potter Themed Portfolio - Sohni Rais
 
 ## Project Overview
